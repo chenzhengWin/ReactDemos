@@ -1,15 +1,12 @@
-import Example from './example';
-import Example2 from './exam2'
+import TodoList from './components/TodoList/index';
+import ReactRouterDemo from './components/routerPractice/RouteDemo'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      {/* <Example/> */}
-      <Example2/>
-       
-      </header>
+      {/* <TodoList/> */}
+      <ReactRouterDemo/>
     </div>
   );
 }
