@@ -28,6 +28,7 @@ class ReactRouterDemo extends React.Component {
           <br />
           <Link to="/about">关于</Link>
         </div>
+        {/* 内容区域 */}
         <div
           style={{ flex: 1,marginLeft:'120px', backgroundColor: "pink", width: 500, height: 500 }}
         >
