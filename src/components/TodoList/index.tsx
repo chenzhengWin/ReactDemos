@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import MyList from "./List";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -20,15 +19,15 @@ export interface TodoListState {
 
 class TodoList extends React.Component<TodoListProps, TodoListState> {
   constructor(props: TodoListProps) {
-    super(props);
-    this.state = {
+    super(props);  
+  }
+  state = {
       todos: [
         { id: 1, name: "逛街", done: true },
         { id: 2, name: "喝水", done: false },
         { id: 3, name: "做饭", done: false },
       ],
     };
-  }
 
   // 添加
   addTodo = (name: string) => {
